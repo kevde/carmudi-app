@@ -1,0 +1,16 @@
+.ui.segment.car-box.row.ui(@click='click()')
+  .thumbnail.column.four.wide
+    img#thumbnail(v-bind:src='thumbnail')
+  .column.eight.wide
+    h3#name
+      | {{ name }}
+    .location
+      span
+        i.marker.icon
+      span
+        | Location,&nbsp;
+      span#location
+        | {{ location }}
+  .column.four.wide.right.aligned
+    #price.price
+      | {{ price }}

@@ -1,0 +1,66 @@
+body {
+  background: whitesmoke;
+}
+
+.ui.segments.car-box {
+  height: 20vh;
+  margin: 2vh 0vh;
+}
+
+.img-left {
+  height: 100%;
+  margin: 1vh;
+}
+
+.location {
+  color: gray;
+  font-size: 0.8rem;
+}
+
+.price {
+  color: #f46519;
+}
+
+h3 {
+ margin-bottom: 0px;
+}
+
+.description {
+  color: gray;
+}
+
+/*.full-main-height {
+  min-height: calc(100vh - 46px - 100px);
+}
+*/
+
+.big-margin-top {
+  margin-top: 2rem!important;
+}
+
+.full-container-height {
+  min-height: calc(100vh - 19px - 50px);
+}
+
+.img-responsive {
+  width: 100%;
+}
+
+.img-logo {
+  width: 10rem;
+}
+
+.no-vertical-margin {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.no-vertical-padding {
+  padding-top: 0px!important;
+  padding-bottom: 0px!important;
+}
+
+.small-vertical-padding {
+  padding-top: 10px!important;
+  padding-bottom: 10px!important;
+}

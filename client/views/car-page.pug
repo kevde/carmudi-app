@@ -1,0 +1,22 @@
+.ui.middle.aligned.center.aligned.grid.full-container-height.full.height
+  .ui.column
+    .ui.row
+      h2#name.ui.header.left.aligned
+        | {{ car.name }}
+    .ui.row.stackable.grid
+      .mainpicture.column.twelve.wide.segment
+        img.img-responsive#mainpicture(v-bind:src='car.main_picture')
+      .ui.column.four.wide.segment
+        .ui.row
+          h3#price.price.right.aligned
+            | {{ price }}
+        .ui.row.location
+          span
+            i.marker.icon
+          span
+            | Location,&nbsp;
+          span#location
+            | {{ location }}
+        .ui.row.full.height(style="overflow:auto; max-height:30vh")
+          #description.description
+            | {{ car.description }}
